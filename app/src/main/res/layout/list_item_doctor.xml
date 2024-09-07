@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:background="@drawable/doctor_list_item_bg">
+
+    <ImageView
+        android:id="@+id/doctorImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="158dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_toEndOf="@id/doctorImage"
+        android:gravity="center"
+        android:text="Doctor Name"
+        android:textColor="#330B0B"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
